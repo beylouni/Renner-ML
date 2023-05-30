@@ -54,8 +54,4 @@ def sales_pipeline_v1(dataframe):
     del df_fisica['categoria_loja']
     print('Dataset de treino para lojas fisicas criado')
     
-    #Criando csv's com os dados tratados e separados
-    df_web.to_csv('../input/clean_data/renner_web_treino.csv', index=False)
-    df_fisica.to_csv('../input/clean_data/renner_fisica_treino.csv', index=False)
-    print('CSVs criados e salvos na pasta input/clean_data')
     return df_web, df_fisica
