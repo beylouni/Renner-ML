@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 
 #pipeline de pré-processamento
-def sales_pipeline_v1(dataframe):
+def dataPipeline(dataframe):
     """
         Args:
             dataframe: Pandas dataframe com os dados de vendas
